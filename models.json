@@ -315,7 +315,7 @@
         "model_type": "mel_band_roformer",
         "category": "Гитара",
         "id": 1061,
-        "full_name": "Mel-Band Roformer Instrumental by Becruily",
+        "full_name": "Mel-Band Roformer Guitar by Becruily",
         "stems": [
             "Guitar",
             "Other"
