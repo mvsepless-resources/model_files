@@ -350,6 +350,19 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_vocals_becruily.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_vocals_becruily_config.yaml"
     },
+    "mbr_invert_clean_becruily": {
+        "model_type": "mel_band_roformer",
+        "category": "Вокал",
+        "id": 1065,
+        "full_name": "Mel-Band Roformer Invert Clean by Becruily",
+        "stems": [
+            "Vocals",
+            "Other"
+        ],
+        "target_instrument": "Vocals",
+        "checkpoint_url": "https://huggingface.co/noblebarkrr/mvsepless_resources/resolve/main/mel_band_roformer/mbr_invert_clean_becruily.ckpt?download=true",
+        "config_url": "https://huggingface.co/noblebarkrr/mvsepless_resources/resolve/main/mel_band_roformer/mbr_invert_clean_becruily_config.yaml?download=true"
+    },
     "mbr_deux_becruily": {
         "model_type": "mel_band_roformer",
         "category": "Инструментал и вокал",
