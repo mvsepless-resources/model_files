@@ -389,6 +389,19 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_xeno.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_xeno_config.yaml"
     },
+    "mbr_xeno3": {
+        "model_type": "mel_band_roformer",
+        "category": "Вокал",
+        "id": 190003,
+        "full_name": "Mel-Band Roformer Xeno v3 by DrYound3r",
+        "stems": [
+            "vocals",
+            "other"
+        ],
+        "target_instrument": "vocals",
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_xeno3.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_xeno3_config.yaml"
+    },
     "mbr_syhft1": {
         "model_type": "mel_band_roformer",
         "category": "Вокал",
@@ -1652,6 +1665,19 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side_gilliaaan_config.yaml"
     },
+    "mbr_mid_side3_gilliaaan": {
+        "model_type": "mel_band_roformer",
+        "category": "Фантомный центр",
+        "id": 190001,
+        "full_name": "Mel-Band Roformer Mid-Side v3 by Gilliaaan",
+        "stems": [
+            "center",
+            "wide"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side3_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side3_gilliaaan_config.yaml"
+    },
     "mbr_vocals_zfturbo": {
         "model_type": "mel_band_roformer",
         "category": "Вокал",
@@ -2320,6 +2346,32 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_dereverb_2250_anvuew.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_dereverb_2250_anvuew_config.yaml"
     },
+    "bs_deeffect_gilliaaan": {
+        "model_type": "bs_roformer",
+        "category": "Эффекты",
+        "id": 290002,
+        "full_name": "BS Roformer DeEffect by Gilliaaan",
+        "stems": [
+            "vocals",
+            "instrumental"
+        ],
+        "target_instrument": "vocals",
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_deeffect_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_deeffect_gilliaaan_config.yaml"
+    },
+    "bs_invert_clean1_gilliaaan": {
+        "model_type": "bs_roformer",
+        "category": "Вокал",
+        "id": 290001,
+        "full_name": "BS Roformer Invert Clean v1 by Gilliaaan",
+        "stems": [
+            "vocals",
+            "other"
+        ],
+        "target_instrument": "vocals",
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_invert_clean1_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_invert_clean1_gilliaaan_config.yaml"
+    },
     "bs_karaoke_anvuew": {
         "model_type": "bs_roformer",
         "category": "Караоке",
@@ -2397,6 +2449,19 @@
         "target_instrument": "lead",
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_pope_karaoke_974_lambda.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_pope_karaoke_974_lambda_config.yaml"
+    },
+    "bs_pope_karaoke2_lambda": {
+        "model_type": "bs_roformer",
+        "category": "Караоке",
+        "id": 290004,
+        "full_name": "BS PolarFormer Karaoke v2 by Lambda001",
+        "stems": [
+            "lead",
+            "back_instrum"
+        ],
+        "target_instrument": "lead",
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_pope_karaoke2_lambda.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_pope_karaoke2_lambda_config.yaml"
     },
     "bs_fnf_mrdense67": {
         "model_type": "bs_roformer",
