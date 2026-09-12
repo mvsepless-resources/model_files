@@ -532,7 +532,10 @@
         ],
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_syhft_4stem.ckpt",
-		"checkpoint_parts": ["_part1", "_part2"],
+        "checkpoint_parts": [
+            "_part1",
+            "_part2"
+        ],
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_syhft_4stem_config.yaml"
     },
     "mbr_syhft_4stem2": {
@@ -548,7 +551,10 @@
         ],
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_syhft_4stem2.ckpt",
-		"checkpoint_parts": ["_part1", "_part2"],
+        "checkpoint_parts": [
+            "_part1",
+            "_part2"
+        ],
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_syhft_4stem2_config.yaml"
     },
     "mbr_inst_1652_essid": {
@@ -1487,7 +1493,10 @@
         ],
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_4stemlarge1_aname.ckpt",
-		"checkpoint_parts": ["_part1", "_part2"],
+        "checkpoint_parts": [
+            "_part1",
+            "_part2"
+        ],
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_4stemlarge1_aname_config.yaml"
     },
     "mbr_4stemlarge2_aname": {
@@ -1503,7 +1512,10 @@
         ],
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_4stemlarge2_aname.ckpt",
-		"checkpoint_parts": ["_part1", "_part2"],
+        "checkpoint_parts": [
+            "_part1",
+            "_part2"
+        ],
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_4stemlarge2_aname_config.yaml"
     },
     "mbr_4stemxl1_aname": {
@@ -1519,7 +1531,11 @@
         ],
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_4stemxl1_aname.ckpt",
-		"checkpoint_parts": ["_part1", "_part2", "_part3"],
+        "checkpoint_parts": [
+            "_part1",
+            "_part2",
+            "_part3"
+        ],
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_4stemxl1_aname_config.yaml"
     },
     "mbr_hybrid_arch_aname": {
@@ -1664,6 +1680,19 @@
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side_gilliaaan_config.yaml"
+    },
+    "mbr_karaoke1_gilliaaan": {
+        "model_type": "mel_band_roformer",
+        "category": "Караоке",
+        "id": 1832729,
+        "full_name": "Mel-Band Roformer Karaoke v1 (finetune of Mid-Side/Center-Wide v3 model) by Gilliaaan",
+        "stems": [
+            "lead",
+            "back-instrum"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_karaoke1_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_karaoke1_gilliaaan_config.yaml"
     },
     "mbr_mid_side3_gilliaaan": {
         "model_type": "mel_band_roformer",
@@ -2739,9 +2768,22 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_mid_side2_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_mid_side2_gilliaaan_config.yaml"
     },
+    "bs_bowed_str2_gilliaaan": {
+        "model_type": "bs_roformer",
+        "category": "Смычковые струнные",
+        "id": 2387377,
+        "full_name": "BS Roformer Bowed Strings v2 by Gilliaaan",
+        "stems": [
+            "strings",
+            "other"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str2_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str2_gilliaaan_config.yaml"
+    },
     "bs_bowed_str_gilliaaan": {
         "model_type": "bs_roformer",
-        "category": "Фантомный центр",
+        "category": "Смычковые струнные",
         "id": 276,
         "full_name": "BS Roformer Bowed Strings by Gilliaaan",
         "stems": [
