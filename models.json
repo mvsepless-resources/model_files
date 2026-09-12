@@ -1681,19 +1681,6 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side_gilliaaan_config.yaml"
     },
-    "mbr_karaoke1_gilliaaan": {
-        "model_type": "mel_band_roformer",
-        "category": "Караоке",
-        "id": 1832729,
-        "full_name": "Mel-Band Roformer Karaoke v1 (finetune of Mid-Side/Center-Wide v3 model) by Gilliaaan",
-        "stems": [
-            "lead",
-            "back-instrum"
-        ],
-        "target_instrument": null,
-        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_karaoke1_gilliaaan.ckpt",
-        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_karaoke1_gilliaaan_config.yaml"
-    },
     "mbr_mid_side3_gilliaaan": {
         "model_type": "mel_band_roformer",
         "category": "Фантомный центр",
@@ -1706,6 +1693,19 @@
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side3_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_mid_side3_gilliaaan_config.yaml"
+    },
+    "mbr_karaoke1_gilliaaan": {
+        "model_type": "mel_band_roformer",
+        "category": "Караоке",
+        "id": 1832729,
+        "full_name": "Mel-Band Roformer Karaoke v1 (finetune of Mid-Side/Center-Wide v3 model) by Gilliaaan",
+        "stems": [
+            "lead",
+            "back-instrum"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_karaoke1_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_karaoke1_gilliaaan_config.yaml"
     },
     "mbr_vocals_zfturbo": {
         "model_type": "mel_band_roformer",
@@ -2768,19 +2768,6 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_mid_side2_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_mid_side2_gilliaaan_config.yaml"
     },
-    "bs_bowed_str2_gilliaaan": {
-        "model_type": "bs_roformer",
-        "category": "Смычковые струнные",
-        "id": 2387377,
-        "full_name": "BS Roformer Bowed Strings v2 by Gilliaaan",
-        "stems": [
-            "strings",
-            "other"
-        ],
-        "target_instrument": null,
-        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str2_gilliaaan.ckpt",
-        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str2_gilliaaan_config.yaml"
-    },
     "bs_bowed_str_gilliaaan": {
         "model_type": "bs_roformer",
         "category": "Смычковые струнные",
@@ -2793,6 +2780,19 @@
         "target_instrument": null,
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str_gilliaaan_config.yaml"
+    },
+    "bs_bowed_str2_gilliaaan": {
+        "model_type": "bs_roformer",
+        "category": "Смычковые струнные",
+        "id": 2387377,
+        "full_name": "BS Roformer Bowed Strings v2 by Gilliaaan",
+        "stems": [
+            "strings",
+            "other"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str2_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_bowed_str2_gilliaaan_config.yaml"
     },
     "bs_speech_alicen": {
         "model_type": "bs_roformer",
