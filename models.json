@@ -1824,6 +1824,32 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_speech_alicen.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_speech_alicen_config.yaml"
     },
+    "mbr_stereoizer_a1_gilliaaan": {
+        "model_type": "mel_band_roformer",
+        "category": "Стереоайзер",
+        "id": 1210608,
+        "full_name": "Mel-Band Roformer Stereoizer alpha1 by Gilliaaan",
+        "stems": [
+            "left",
+            "right"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_stereoizer_a1_gilliaaan.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_stereoizer_a1_gilliaaan_config.yaml"
+    },
+    "mbr_stereoizer_anime_jazzpear": {
+        "model_type": "mel_band_roformer",
+        "category": "Стереоайзер",
+        "id": 1940712,
+        "full_name": "Mel-Band Roformer Stereoizer Anime (finetune of Gilliaaan Stereoizer model) by jazzpear",
+        "stems": [
+            "left",
+            "right"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_stereoizer_anime_jazzpear.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/mel-band-roformer/mbr_stereoizer_anime_jazzpear_config.yaml"
+    },
     "bs_cr_4stem_zf_turbo": {
         "model_type": "bs_roformer",
         "category": "4 стема",
@@ -2155,7 +2181,7 @@
         "model_type": "bs_roformer",
         "category": "Караоке",
         "id": 215,
-        "full_name": "BS Roformer Karaoke by Becrily & Frazer",
+        "full_name": "BS Roformer Karaoke by Becruily & Frazer",
         "stems": [
             "Instrumental",
             "Vocals"
@@ -2353,7 +2379,7 @@
         "model_type": "bs_roformer",
         "category": "Реверб",
         "id": 231,
-        "full_name": "BS Roformer Deverb Roon by Anvuew",
+        "full_name": "BS Roformer Deverb Room by Anvuew",
         "stems": [
             "noreverb",
             "reverb"
@@ -2798,7 +2824,7 @@
         "model_type": "bs_roformer",
         "category": "Вокал",
         "id": 275,
-        "full_name": "BS Roformer SppechSep by AliceN",
+        "full_name": "BS Roformer SpeechSep by AliceN",
         "stems": [
             "vocals",
             "other"
@@ -2819,6 +2845,19 @@
         "target_instrument": "other",
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_neo_inst_beta.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_neo_inst_beta_config.yaml"
+    },
+    "bs_delimit_becruily": {
+        "model_type": "bs_roformer",
+        "category": "Де-лимитер",
+        "id": 2688536,
+        "full_name": "BS Roformer Delimit by Becruily",
+        "stems": [
+            "Delimit",
+            "Other"
+        ],
+        "target_instrument": "Delimit",
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_delimit_becruily.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_delimit_becruily_config.yaml"
     },
     "bs_mega_53stem_full_mvsep": {
         "model_type": "bs_roformer",
