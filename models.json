@@ -3668,6 +3668,53 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_pope_vocals_zfturbo.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/bs_pope_vocals_zfturbo_config.yaml"
     },
+    "sub_base_4stem": {
+        "model_type": "sub_roformer",
+        "category": "4 стема",
+        "id": 7401014,
+        "full_name": "Sub Roformer Base 4 stems",
+        "stems": [
+            "vocals",
+            "bass",
+            "drums",
+            "other"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/sub-roformer/sub_base_4stem.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/sub-roformer/sub_base_4stem_config.yaml"
+    },
+    "sub_base_silu_4stem": {
+        "model_type": "sub_roformer",
+        "category": "4 стема",
+        "id": 7384143,
+        "full_name": "Sub Roformer Base SiLU 4 stems",
+        "stems": [
+            "vocals",
+            "bass",
+            "drums",
+            "other"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/sub-roformer/sub_base_silu_4stem.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/sub-roformer/sub_base_silu_4stem_config.yaml"
+    },
+    "htr_drumsep": {
+        "model_type": "bs_roformer",
+        "category": "DrumSep",
+        "id": 2359201,
+        "full_name": "HT-Roformer Drumsep by Sucial",
+        "stems": [
+            "kick",
+            "snare",
+            "hihat",
+            "tom",
+            "cymbal",
+            "other"
+        ],
+        "target_instrument": null,
+        "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/htr_drumsep.ckpt",
+        "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/bs-roformer/htr_drumsep_config.yaml"
+    },
     "mdx23c_instvoc_zfturbo": {
         "model_type": "mdx23c",
         "category": "Инструментал и вокал",
