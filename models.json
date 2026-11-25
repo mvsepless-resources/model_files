@@ -5112,7 +5112,7 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_xl_4stem_starrytong.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_xl_4stem_starrytong_config.yaml"
     },
-    "scnet_xl_4stem_zftrubo": {
+    "scnet_xl_4stem_zfturbo": {
         "model_type": "scnet",
         "category": "4 стема",
         "id": 403,
@@ -5228,7 +5228,7 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_mid_side2_gilliaaan.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_mid_side2_gilliaaan_config.yaml"
     },
-    "scnet_masked_small_4stem_zftrubo": {
+    "scnet_masked_small_4stem_zfturbo": {
         "model_type": "scnet_masked",
         "category": "4 стема",
         "id": 430,
@@ -5243,7 +5243,7 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_masked_small_4stem_zftrubo.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_masked_small_4stem_zftrubo_config.yaml"
     },
-    "scnet_masked_xl_ihf_4stem_zftrubo": {
+    "scnet_masked_xl_ihf_4stem_zfturbo": {
         "model_type": "scnet_masked",
         "category": "4 стема",
         "id": 431,
@@ -5258,7 +5258,7 @@
         "checkpoint_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_masked_xl_ihf_4stem_zftrubo.ckpt",
         "config_url": "https://github.com/mvsepless-resources/model_files/releases/download/scnet/scnet_masked_xl_ihf_4stem_zftrubo_config.yaml"
     },
-    "scnet_tran_4stem_zftrubo": {
+    "scnet_tran_4stem_zfturbo": {
         "model_type": "scnet_tran",
         "category": "4 стема",
         "id": 432,
